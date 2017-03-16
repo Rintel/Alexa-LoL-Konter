@@ -1,7 +1,7 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
-var APP_ID = "amzn1.ask.skill.3edd2826-b6ab-4638-af7c-7da2d30065bc";
+var APP_ID = "";
 var recipes = require('./recipes');
 
 exports.handler = function(event, context, callback) {
